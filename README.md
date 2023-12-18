@@ -1,8 +1,4 @@
-<div style="display: flex;">
-  <img src="images/icon.png" alt="Icon" height="50" style="margin-right: 10px">
-  <h1>Uno Shooter</h1>
-</div>
-
+# <img src="images/icon.png" alt="icon" width="50" height="50" /> Uno Shooter
 
 ## Description
 
@@ -79,3 +75,18 @@ Main `loop` function checks the flags set by the interrupts and executes corresp
 ## Game Mechanics
 
 The player, represented by a dot on the bottom row of the 8x8 LED matrix, can move left or right and shoot bullets upwards. In the beginning, an enemy appear on the top matrix row. It drops down one row at a time at fixed intervals, also shifting sideways, making the game a little bit more dynamic. Uno Shooter uses a looping playfield: both the player and the enemy can pass through one side of the display and reappear on the other. The player must quickly determine a shortest path to the enemy position while strategically utilizing 7-segment countdown timer to anticipate the next enemy move.
+
+## Gameplay Demos
+
+https://github.com/dovydasju/uno-shooter/assets/33726370/1e382a8c-1945-4960-8d9c-53ecd92221f0
+
+https://github.com/dovydasju/uno-shooter/assets/33726370/a8fb4db0-58cb-4449-951e-59eacde8e635
+
+https://github.com/dovydasju/uno-shooter/assets/33726370/ce009143-ac46-463f-97d1-d57af3620760
+
+https://github.com/dovydasju/uno-shooter/assets/33726370/eceeb376-5caf-4f2e-beef-504c09e21efe
+
+https://github.com/dovydasju/uno-shooter/assets/33726370/b2e41d9b-0110-4885-b142-1752f9304ebc
+
+
+
